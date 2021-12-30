@@ -11,6 +11,9 @@
 		311F0AC6277CF2ED005E938A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311F0AC5277CF2ED005E938A /* ContentView.swift */; };
 		311F0AC8277CF2EF005E938A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 311F0AC7277CF2EF005E938A /* Assets.xcassets */; };
 		311F0ACB277CF2EF005E938A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 311F0ACA277CF2EF005E938A /* Preview Assets.xcassets */; };
+		311F0AD2277CF517005E938A /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311F0AD1277CF517005E938A /* StepperView.swift */; };
+		311F0AD4277CF55C005E938A /* DatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311F0AD3277CF55C005E938A /* DatesView.swift */; };
+		311F0AD6277CF726005E938A /* WorkingDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311F0AD5277CF726005E938A /* WorkingDates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		311F0AC5277CF2ED005E938A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		311F0AC7277CF2EF005E938A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		311F0ACA277CF2EF005E938A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		311F0AD1277CF517005E938A /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
+		311F0AD3277CF55C005E938A /* DatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatesView.swift; sourceTree = "<group>"; };
+		311F0AD5277CF726005E938A /* WorkingDates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingDates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				311F0AC3277CF2ED005E938A /* BetterRestApp.swift */,
 				311F0AC5277CF2ED005E938A /* ContentView.swift */,
+				311F0AD3277CF55C005E938A /* DatesView.swift */,
+				311F0AD5277CF726005E938A /* WorkingDates.swift */,
+				311F0AD1277CF517005E938A /* StepperView.swift */,
 				311F0AC7277CF2EF005E938A /* Assets.xcassets */,
 				311F0AC9277CF2EF005E938A /* Preview Content */,
 			);
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				311F0AC6277CF2ED005E938A /* ContentView.swift in Sources */,
+				311F0AD2277CF517005E938A /* StepperView.swift in Sources */,
+				311F0AD4277CF55C005E938A /* DatesView.swift in Sources */,
 				311F0AC4277CF2ED005E938A /* BetterRestApp.swift in Sources */,
+				311F0AD6277CF726005E938A /* WorkingDates.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
