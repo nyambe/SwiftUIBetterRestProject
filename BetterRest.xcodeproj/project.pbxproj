@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		310CD3BF277E2656007CC548 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 310CD3BE277E2656007CC548 /* SleepCalculator.mlmodel */; };
 		311F0AC4277CF2ED005E938A /* BetterRestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311F0AC3277CF2ED005E938A /* BetterRestApp.swift */; };
 		311F0AC6277CF2ED005E938A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311F0AC5277CF2ED005E938A /* ContentView.swift */; };
 		311F0AC8277CF2EF005E938A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 311F0AC7277CF2EF005E938A /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		310CD3BE277E2656007CC548 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 		311F0AC0277CF2ED005E938A /* BetterRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		311F0AC3277CF2ED005E938A /* BetterRestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestApp.swift; sourceTree = "<group>"; };
 		311F0AC5277CF2ED005E938A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 			children = (
 				311F0AC3277CF2ED005E938A /* BetterRestApp.swift */,
 				311F0AC5277CF2ED005E938A /* ContentView.swift */,
+				310CD3BE277E2656007CC548 /* SleepCalculator.mlmodel */,
 				311F0AD3277CF55C005E938A /* DatesView.swift */,
 				311F0AD5277CF726005E938A /* WorkingDates.swift */,
 				311F0AD1277CF517005E938A /* StepperView.swift */,
@@ -149,6 +152,7 @@
 				311F0AC6277CF2ED005E938A /* ContentView.swift in Sources */,
 				311F0AD2277CF517005E938A /* StepperView.swift in Sources */,
 				311F0AD4277CF55C005E938A /* DatesView.swift in Sources */,
+				310CD3BF277E2656007CC548 /* SleepCalculator.mlmodel in Sources */,
 				311F0AC4277CF2ED005E938A /* BetterRestApp.swift in Sources */,
 				311F0AD6277CF726005E938A /* WorkingDates.swift in Sources */,
 			);

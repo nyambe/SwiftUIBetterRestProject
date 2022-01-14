@@ -22,7 +22,7 @@ struct WorkingDates: View {
         let minuto = momento.minute ?? 0
         
         let date = Calendar.current.date(from: components) ?? Date.now
-        print(date)
+        print(date, hora, minuto)
     }
 }
 
